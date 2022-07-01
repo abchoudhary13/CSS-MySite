@@ -1,0 +1,147 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;/*centers everything in the body conatiner*/
+  /*font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;if the user dont have helvetical installed then it go for arial and if not arial then go for sans-serif*/
+  font-family: 'Merriweather', serif;
+}
+h1 {
+  margin: 50px auto 0 auto ;
+  color: #66BFBF;
+  line-height: 2;
+  /*auto makes the text alignment in center */
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;/*100%-16px,16px=1em *em and % both are dynamic size using rem view is acc to browser appearanvce like small medium large*/
+}
+
+h2{
+  color: #66BFBF;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.17rem;
+}
+
+p{
+  line-height: 2;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 8px;
+  width: 4%;
+}
+
+.top-container{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container{
+  margin: 100px 0 100px 0;
+}
+.pro{
+  text-decoration: underline;
+}
+
+.cloud1{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.cloud2{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.myimg{
+  width: 14%;
+  height: 14%;
+}
+
+.intro{
+  width: 30%;
+  margin: 0 auto 0 auto;
+}
+
+.skill-row{
+  width: 50% ;
+  margin: 100px auto 100px auto;/*to center the text*/
+  text-align: left;
+}
+.bcode-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.code-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+.footer-link{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color: #EAF6F6;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+
+
+
